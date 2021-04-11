@@ -29,8 +29,8 @@
     line-height: 1.55vw; 
     padding-bottom: 1.8vw;
 }
-.slide-text {font-size: 1.3vw; line-height: 2vw; padding-bottom: 4vw; word-spacing: 4px;}
-.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 1.1vw; transition-duration: 0.5s;}
+.slide-text {font-size: 1.2vw; line-height: 2vw; padding-bottom: 4vw; word-spacing: 4px;}
+.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 1vw; transition-duration: 0.5s;}
 .slide-more:hover {color: #80CDEA;}
 .slide-bullet {
     width: 0.5vw; 
