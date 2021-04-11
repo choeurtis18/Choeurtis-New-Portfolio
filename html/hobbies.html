@@ -1,0 +1,34 @@
+<article class="container-section" id="hobbies-section">
+    <div id="hobbies-image">
+        <div id="hobbies-container">
+            <h2 id="hobbies-container-title">My Hobbies</h2>
+            <div class="contenu-carrousel">
+            <div class="carrousel">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            </div>
+            <div class=controle>
+                <a onclick="carrousel('-')" class="arrow slider-link prev"></a>
+                <a onclick="carrousel('')" class="arrow slider-link next"></a>
+            </div>
+        </div>
+    </div>
+</article>
+
+<script>
+    var angle = 0;
+    function carrousel(sign){
+        spinner=document.querySelector(".carrousel");
+        if(!sign){
+            angle = angle - 60
+        }else{ 
+            angle = angle + 60
+        }
+    spinner.setAttribute("style","transform:rotateY("+ angle +"deg);")
+    }	   
+</script>

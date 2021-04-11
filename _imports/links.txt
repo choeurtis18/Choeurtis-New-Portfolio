@@ -1,0 +1,15 @@
+Links Page
+
+
+Site name : pixabay.com
+
+backGround_01.jpg = https://pixabay.com/fr/photos/ordinateur-ordinateurs-1245714/
+cuisine = https://pixabay.com/fr/photos/ingr%C3%A9dients-cuisson-pr%C3%A9paration-498199/
+body-building = https://pixabay.com/fr/photos/musculation-studio-de-remise-en-forme-5013985/
+foot = https://pixabay.com/fr/photos/boule-ballon-de-soccer-soccer-488718/
+rap = https://fr.freepik.com/vecteurs-libre/mot-neon-rap-microphone-dans-contour-flamme_2438178.htm#page=1&query=rap&position=0
+danse = https://fr.freepik.com/photos-gratuite/temps-danse-hommes-femmes-elegants-dansant-hip-hop-dans-vetements-lumineux-fond-vert-salle-danse-neon_10055415.htm#page=1&query=danse&position=0
+
+carousel = https://www.guyom-design.com/blog/demos/js/caroussel-css3-js/
+slider = https://codepen.io/gvrban/pen/qjbpaa
+inspiration = https://mattfarley.ca/

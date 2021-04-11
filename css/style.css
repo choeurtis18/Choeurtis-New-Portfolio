@@ -1,0 +1,187 @@
+/*General parameter*/
+/*
+Colors
+Colors
+Black : #000000
+Dark Gray : #333333
+Blue : #80CDEA;
+Purple : #7510F7
+White : #FFFFFF
+
+
+*/
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.transition {
+    transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+       -moz-transition:all 1s ease;
+        -ms-transition:all 1s ease;
+         -o-transition:all 1s ease;
+            transition:all 1s ease;
+}
+
+article {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+/*Animation bounce*/
+@keyframes bounce {
+    0% {
+    transform: scale(1,1) translate(0px, 0px);
+    }
+    30%{
+    transform: scale(1,0.9) translate(0px, 10px); 
+    }
+    75%{
+    transform: scale(1,1.1) translate(0px, -25px); 
+    }
+    100% {
+    transform: scale(1,1) translate(0px, 0px);
+    }
+}
+/*End General parameter*/
+
+
+/*Banner page*/
+#banner-image {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url("../image/choeurtis_draw.png");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#banner-text h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+#banner-text p {
+    font-size: 25px;
+    color: #fff;
+}
+
+#banner-text button {
+    font-size: 15px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 20px 25px;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    border-radius: 18px;
+}
+
+#banner-text button:hover {
+    background-color: #80CDEA;
+    color: #fff;
+}
+
+#banner-text-bounce a{
+    text-align:center;
+    margin:0 auto;
+    margin-top:100px;
+    height:150px;
+    width:150px;
+    padding:20px;  
+    animation: bounce 1s infinite;
+    cursor:default;
+    font-size: 60px;
+    color: #80CDEA;
+}
+/*End Banner page*/
+
+/*Navbar*/
+#navbar {
+    z-index: 99;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.7s;
+}
+
+#navbar a:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#navbar a.active {
+    background-color: #80CDEA;
+    color: #fff;
+}
+
+#navbar a.active:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*End Navbar*/

@@ -1,0 +1,67 @@
+/*Introduction Section Style*/
+#introduction-section {
+    background-color: #80CDEA;
+    text-align: center;
+    padding: 1% 8% 0% 8%;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#introduction-section .content p {
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+/*Card Introduction Section Style*/
+#introduction-section .card-container {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+#introduction-section .card-container h3{
+    color: #000;
+    font-size: 33px;
+}
+
+#introduction-section .card-container-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#introduction-section .card {
+    flex: 1 23%;
+    -webkit-box-shadow: 0 8px 10px -6px #80CDEA;
+     -moz-box-shadow: 0 8px 10px -6px #80CDEA;
+          box-shadow: 0 8px 10px -6px #80CDEA;
+        
+    margin: 8px;
+}
+
+#introduction-section .card-container-div i{
+    color: #80CDEA;
+}
+
+#introduction-section .card-container-div .card-name{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#introduction-section .card-containe-div {
+    color: #000;
+    font-size: 15px;
+}
+
+#introduction-section .card-container .card-container-div .card div {
+    padding: 5px;
+}
+
+#introduction-section .card-container-div h3{
+    color: #80CDEA;
+    font-size: 18px;
+}
+/*End Card Introduction Section Style*/
+/*End Introduction Section Style*/

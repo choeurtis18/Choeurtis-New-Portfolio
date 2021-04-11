@@ -1,0 +1,158 @@
+/*
+Colors
+Colors
+Black : #000000
+Dark Gray : #333333
+Blue : #80CDEA;
+Purple : #7510F7
+White : #FFFFFF
+*/
+
+#footer-section {
+    text-align: center;
+    margin: 70px 0px 70px 0px;
+}
+#footer-section #myBtn {
+    text-align: center;
+    background-color: #80CDEA;
+    border-radius: 14px;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    transition-duration: 0.7s;
+}
+
+
+#footer-section #myBtn:hover {
+    background-color: #ccc;
+    color: #333;
+}
+/* The Popup (background) */
+#footer-section .popup {
+    display: none;
+    position: fixed;
+    z-index: 5; 
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Popup Content */
+#footer-section .popup-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 30px 50px 30px 50px;
+    width: 70%;
+}
+
+#footer-section .popup-content h3{
+    font-size: 23px;
+    font-family: Georgia, serif;
+}
+
+#footer-section input[type=text], #footer-section input[type=email], #footer-section textarea[type=text] {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    width: 100%;
+    background-color: #ddd;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+    outline: none;
+}
+
+#footer-section input[type=text]:focus, #footer-section input[type=email]:focus, #footer-section textarea[type=text]:focus {
+    box-shadow: inset 0 0 0 3px #80CDEA,
+                0 0 0 4px #80CDEA,
+                3px -3px 30px #80CDEA, 
+                -3px 3px 30px #80CDEA;
+            
+}
+
+#footer-section input[type=submit] {
+    width: 100%;
+    background-color: #80CDEA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    font-size: 18px;
+}
+
+#footer-section input[type=submit]:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/* The Close Button */
+.close {
+    color: #80CDEA;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.close:hover, .close:focus {
+    opacity: 1;
+    color: #80CDEA;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Social media*/
+#social_icon_footer {
+    padding: 40px 0px 10px 0px;
+}
+  
+#social_icon_footer a {
+    color: #dedede;
+}
+  
+#social_icon_footer .social:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+  
+#social_icon_footer .social {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#social_icon_footer .social {
+    color: #000;
+}
+#social_icon_footer .social:hover {
+    color: #80CDEA;
+}
+  
+
+#legal-notice #information-page:hover {
+    color: #80CDEA;
+}

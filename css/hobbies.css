@@ -1,0 +1,119 @@
+/*Hobbies Style*/
+#hobbies-section {
+    margin: 0;
+    padding: 0;
+}
+
+#hobbies-image {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url("../image/backGround_02.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hobbies-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#hobbies-container h2 {
+    font-size: 60px;
+    color: #fff;
+}
+
+
+.controle{
+    display:grid;
+    grid:2rem/repeat(2,1fr);
+    place-items:center
+}
+    
+button{
+    z-index: 2;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    background: #80CDEA;
+    border-radius: 12px;
+} 
+    
+    
+.contenu-carrousel {  
+    margin: 5rem auto;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;     
+}
+
+.carrousel { 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.carrousel div {
+    
+    backface-visibility: hidden;
+    box-shadow: 0 10px 10px rgba(128, 206, 234, 0.4);
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    outline: 1px solid transparent;
+    
+}
+    
+.carrousel div:nth-child(1) {
+    
+transform: rotateY(0) translateZ(270px);
+background:url("/image/backGround_01.jpg") no-repeat center center/cover;
+    
+}
+    
+.carrousel div:nth-child(2) {
+    
+transform: rotateY(60deg) translateZ(270px);
+background:url("/image/ball.jpg") no-repeat center center/cover
+
+}
+    
+.carrousel div:nth-child(3) {
+    
+transform: rotateY(120deg) translateZ(270px);
+background:url("/image/cuisine.jpg") no-repeat center center/cover
+    
+}
+    
+.carrousel div:nth-child(4) {
+    
+transform: rotateY(180deg) translateZ(270px);
+background: url("/image/body-buildin.jpg") no-repeat center center/cover
+    
+}
+    
+.carrousel div:nth-child(5) {
+    
+transform: rotateY(240deg) translateZ(270px);
+background: url("/image/dance.jpg") no-repeat center center/cover
+    
+} 
+    
+.carrousel div:nth-child(6) {
+    
+transform: rotateY(300deg) translateZ(270px);
+background: url("/image/rap.jpg") no-repeat center center/cover
+    
+}	
+
+
+/*End Hobbies Style*/
