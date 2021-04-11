@@ -14,23 +14,23 @@
 .slider-wrapper {margin-top: 5vw;  margin-left: 11vw;}
 .slide-image {height: 24vw;}
 .slide-image img {width: 24vw; cursor: pointer;}
-.slide-content {width: 25vw; color: #000; padding:3vw 18vw 3vw 9vw;}
+.slide-content {width: 25vw; color: #000; padding:0vw 18vw 3vw 9vw;}
 .slide-date {
     color: #80CDEA; 
-    font-size: 1.1vw; 
+    font-size: 1.2vw; 
     font-weight: 400; 
     letter-spacing: 0.1vw; 
     padding-bottom: 1.4vw;
 }
 .slide-title {
-    font-size: 1.2vw; 
+    font-size: 1.7vw; 
     font-weight: 400; 
     letter-spacing: 0.1vw; 
     line-height: 1.55vw; 
     padding-bottom: 1.8vw;
 }
-.slide-text {font-size: 0.80vw; line-height: 1.2vw; opacity: 0.8; padding-bottom: 4vw;}
-.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 0.9vw; transition-duration: 0.5s;}
+.slide-text {font-size: 1.3vw; line-height: 2vw; padding-bottom: 4vw; word-spacing: 4px;}
+.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 1.1vw; transition-duration: 0.5s;}
 .slide-more:hover {color: #80CDEA;}
 .slide-bullet {
     width: 0.5vw; 
