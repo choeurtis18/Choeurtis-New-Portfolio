@@ -34,9 +34,11 @@
 #introduction-section .card {
     flex: 1 23%;
     -webkit-box-shadow: 0 8px 10px -6px #80CDEA;
-     -moz-box-shadow: 0 8px 10px -6px #80CDEA;
-          box-shadow: 0 8px 10px -6px #80CDEA;
-        
+    -moz-box-shadow: 0 8px 10px -6px #80CDEA;
+    -ms-box-shadow:0 8px 10px -6px #80CDEA;
+    -o-box-shadow:0 8px 10px -6px #80CDEA;
+    box-shadow: 0 8px 10px -6px #80CDEA;
+          
     margin: 8px;
 }
 

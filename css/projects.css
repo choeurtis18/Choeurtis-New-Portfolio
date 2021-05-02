@@ -48,6 +48,11 @@ div.overlay-blue {
     position: absolute; 
     top: 0; 
     transition: 0.5s ease all;
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -ms-transition:0.5s ease all;
+    -o-transition:0.5s ease all;
+    
 }
 
 .arrows{width: 3.5vw; margin-top: -5.8vw; margin-left: 72vw; position: relative;}
@@ -61,6 +66,11 @@ div.overlay-blue {
     border-top: 0.15vw solid #80CDEA; 
     border-left: 0.15vw solid #80CDEA; 
     transition: all .1s ease-in-out; 
+    -webkit-transition:all .1s ease-in-out; 
+       -moz-transition:all .1s ease-in-out; 
+        -ms-transition:all .1s ease-in-out; 
+         -o-transition:all .1s ease-in-out; 
+            transition:all .1s ease-in-out; 
     text-decoration: none; 
     color: transparent;
     cursor: pointer;
