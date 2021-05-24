@@ -3,8 +3,7 @@
 Colors
 Black : #000000
 Dark Gray : #333333
-Blue : #38a7ff;80CDEA
-Purple : #7510F7
+Blue : #38a7ff;
 White : #FFFFFF
 */
 
@@ -153,10 +152,41 @@ h2 {
     background-color: #fff;
     color: #000;
 }
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
+#navbar #icon-moon-sun{
+    float: right;
+    position: relative;
+}
+#icon-moon-sun {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#icon-moon-sun:before {
+    font-family: fontAwesome;
+    content: '\f186';
+}
+#navbar.darkMode #icon-moon-sun:before {
+    content: '\f185';
+}
+
+#introduction .dark {
+    background-color: #24292d;
+}
+.dark {
+    background-color: #24292d;
+}
+
 /*End Navbar*/

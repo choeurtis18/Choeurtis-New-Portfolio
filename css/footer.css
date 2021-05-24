@@ -12,6 +12,17 @@ White : #FFFFFF
     text-align: center;
     margin: 70px 0px 70px 0px;
 }
+#footer-section.dark #legal-notice p {
+    color: #fff;
+}
+
+#footer-section.dark .popup-content {
+    background-color: #24292d;
+}
+#footer-section.dark .popup-content h3{
+    color: #fff;
+}
+
 #footer-section #myBtn {
     text-align: center;
     background-color: #38a7ff;

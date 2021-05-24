@@ -55,4 +55,11 @@ $(document).ready(function(){
 
     }
 
+    $("#icon-moon-sun").click(function () {
+      $("#introduction-section").toggleClass("dark");
+      $("#project-section").toggleClass("dark");
+      $("#footer-section").toggleClass("dark");
+      $("body").toggleClass("dark");
+      $("#navbar").toggleClass("darkMode");
+    })
 });

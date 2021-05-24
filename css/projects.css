@@ -1,6 +1,12 @@
 #project-section {
     margin: 100px 0px 150px 0px;
 }
+#project-section.dark .project-card-title,
+#project-section.dark .slide-title, 
+#project-section.dark .slide-text, 
+#project-section.dark .slide-more {
+    color: #fff;
+}
 .flex { 
     display: -webkit-flex; 
     display: flex; 
