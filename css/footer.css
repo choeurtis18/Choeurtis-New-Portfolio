@@ -3,7 +3,7 @@ Colors
 Colors
 Black : #000000
 Dark Gray : #333333
-Blue : #80CDEA;
+Blue : #38a7ff;
 Purple : #7510F7
 White : #FFFFFF
 */
@@ -14,7 +14,7 @@ White : #FFFFFF
 }
 #footer-section #myBtn {
     text-align: center;
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     border-radius: 14px;
     color: #fff;
     padding: 15px 32px;
@@ -76,16 +76,16 @@ White : #FFFFFF
 }
 
 #footer-section input[type=text]:focus, #footer-section input[type=email]:focus, #footer-section textarea[type=text]:focus {
-    box-shadow: inset 0 0 0 3px #80CDEA,
-                0 0 0 4px #80CDEA,
-                3px -3px 30px #80CDEA, 
-                -3px 3px 30px #80CDEA;
+    box-shadow: inset 0 0 0 3px #38a7ff,
+                0 0 0 4px #38a7ff,
+                3px -3px 30px #38a7ff, 
+                -3px 3px 30px #38a7ff;
             
 }
 
 #footer-section input[type=submit] {
     width: 100%;
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -103,7 +103,7 @@ White : #FFFFFF
 
 /* The Close Button */
 .close {
-    color: #80CDEA;
+    color: #38a7ff;
     float: right;
     font-size: 30px;
     font-weight: bold;
@@ -112,7 +112,7 @@ White : #FFFFFF
 
 .close:hover, .close:focus {
     opacity: 1;
-    color: #80CDEA;
+    color: #38a7ff;
     text-decoration: none;
     cursor: pointer;
 }
@@ -149,10 +149,10 @@ White : #FFFFFF
     color: #000;
 }
 #social_icon_footer .social:hover {
-    color: #80CDEA;
+    color: #38a7ff;
 }
   
 
 #legal-notice #information-page:hover {
-    color: #80CDEA;
+    color: #38a7ff;
 }

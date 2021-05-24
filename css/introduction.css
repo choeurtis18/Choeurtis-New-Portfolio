@@ -1,6 +1,6 @@
 /*Introduction Section Style*/
 #introduction-section {
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     text-align: center;
     padding: 1% 8% 0% 8%;
     color: #fff;
@@ -33,17 +33,17 @@
 
 #introduction-section .card {
     flex: 1 23%;
-    -webkit-box-shadow: 0 8px 10px -6px #80CDEA;
-    -moz-box-shadow: 0 8px 10px -6px #80CDEA;
-    -ms-box-shadow:0 8px 10px -6px #80CDEA;
-    -o-box-shadow:0 8px 10px -6px #80CDEA;
-    box-shadow: 0 8px 10px -6px #80CDEA;
+    -webkit-box-shadow: 0 8px 10px -6px #38a7ff;
+    -moz-box-shadow: 0 8px 10px -6px #38a7ff;
+    -ms-box-shadow:0 8px 10px -6px #38a7ff;
+    -o-box-shadow:0 8px 10px -6px #38a7ff;
+    box-shadow: 0 8px 10px -6px #38a7ff;
           
     margin: 8px;
 }
 
 #introduction-section .card-container-div i{
-    color: #80CDEA;
+    color: #38a7ff;
 }
 
 #introduction-section .card-container-div .card-name{
@@ -62,7 +62,7 @@
 }
 
 #introduction-section .card-container-div h3{
-    color: #80CDEA;
+    color: #38a7ff;
     font-size: 18px;
 }
 /*End Card Introduction Section Style*/

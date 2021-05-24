@@ -5,30 +5,28 @@ $(document).ready(function(){
     $("#project").load("./html/projects.html"); 
     $("#footer").load("./html/footer.html"); 
     
-    //Sticky the menu
     window.onscroll = function() {
-        myFunction()
+        stickyManagement();
+        changeOptionClass();
     };
 
+    //Sticky the menu
     var navbar = $("#navbar");
+    var introductionOffset = $("#introduction").offset(); //end menu position
     
-    var navbarOffset = $("#introduction").offset(); //end menu position
-    
-    function myFunction() {
-      if (window.pageYOffset >= navbarOffset.top) {
+    function stickyManagement() {
+      if (window.pageYOffset >= introductionOffset.top) {
         navbar.addClass("sticky")
       } else {
         navbar.removeClass("sticky");
       }
     }
-    //End Sticky the menu
 
-    //Write animation
     var i = 0;
-    var txt = 'Web Developer';
-    var speed = 100;
-
     function typeWriter() {
+      var txt = 'Web Developer';
+      var speed = 100;
+
       if (i < txt.length) { 
         $("#banner-text-subtitle").html($("#banner-text-subtitle").html() + txt.charAt(i));
         i++;
@@ -36,5 +34,25 @@ $(document).ready(function(){
       }
     }
     typeWriter()
-    
+
+    function changeOptionClass() {
+      var scroll = $(window).scrollTop();
+      var studiesCardOffset = $("#studies-card").offset();
+      var projectsarrowsOffset = $("#projects-arrows").offset();
+
+      if (scroll >= studiesCardOffset.top) {
+        $("#navbar-project-btn").addClass("active");
+        $("#navbar-home-btn").removeClass("active");
+        $("#navbar-footer-btn").removeClass("active");
+      }else {
+        $("#navbar-project-btn").removeClass("active");
+        $("#navbar-home-btn").addClass("active");
+      }
+      if(scroll >= projectsarrowsOffset.top) {
+        $("#navbar-project-btn").removeClass("active");
+        $("#navbar-footer-btn").addClass("active");
+      }
+
+    }
+
 });

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body, html {
     padding: 0;
     margin: 0;
@@ -36,7 +35,7 @@ p{
     width: 10%;
     border: none;
     box-shadow: none;
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     margin-bottom: 10px;
 }
 .separator:hover{
@@ -46,7 +45,7 @@ p{
 /*Menu (navbar)*/
 nav{
     width: 100%;
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     color: #fff;
 }
 nav:hover{
@@ -66,5 +65,5 @@ li {
     text-decoration: none;
 }
 li a:hover{
-    color: #80CDEA;
+    color: #38a7ff;
 }

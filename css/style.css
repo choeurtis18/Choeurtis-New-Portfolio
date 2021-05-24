@@ -1,15 +1,14 @@
 /*General parameter*/
 /*
 Colors
-Colors
 Black : #000000
 Dark Gray : #333333
-Blue : #80CDEA;
+Blue : #38a7ff;80CDEA
 Purple : #7510F7
 White : #FFFFFF
-
-
 */
+
+/* General parameter*/
 body, html {
     width: 100%;
     margin: 0;
@@ -28,6 +27,7 @@ ul, li {
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 .fa {
@@ -52,31 +52,11 @@ a {
     -ms-transition:all 1s ease;
     -o-transition:all 1s ease;
 }
-
-article {
-    padding: 10px;
-}
-
 h2 {
     font-size: 38px;
     text-align: center;
 }
 
-/*Animation bounce*/
-@keyframes bounce {
-    0% {
-    transform: scale(1,1) translate(0px, 0px);
-    }
-    30%{
-    transform: scale(1,0.9) translate(0px, 10px); 
-    }
-    75%{
-    transform: scale(1,1.1) translate(0px, -25px); 
-    }
-    100% {
-    transform: scale(1,1) translate(0px, 0px);
-    }
-}
 /*End General parameter*/
 
 
@@ -99,6 +79,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    padding-bottom: 50px;
 }
 
 #banner-text h1 {
@@ -113,20 +94,16 @@ h2 {
 
 #banner-text button {
     font-size: 15px;
-    border: none;
-    outline: 0;
-    display: inline-block;
     padding: 20px 25px;
     color: black;
     background-color: #fff;
     text-align: center;
-    cursor: pointer;
     transition-duration: 0.7s;
     border-radius: 18px;
 }
 
 #banner-text button:hover {
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     color: #fff;
 }
 
@@ -140,7 +117,7 @@ h2 {
     animation: bounce 1s infinite;
     cursor:default;
     font-size: 60px;
-    color: #80CDEA;
+    color: #38a7ff;
 }
 /*End Banner page*/
 
@@ -156,8 +133,7 @@ h2 {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
+    padding: 15px 15px; 
     font-size: 16px;
     transition-duration: 0.7s;
 }
@@ -169,7 +145,7 @@ h2 {
 }
 
 #navbar a.active {
-    background-color: #80CDEA;
+    background-color: #38a7ff;
     color: #fff;
 }
 

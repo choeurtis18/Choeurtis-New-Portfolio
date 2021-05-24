@@ -16,7 +16,7 @@
 .slide-image img {width: 24vw; cursor: pointer;}
 .slide-content {width: 25vw; color: #000; padding:0vw 18vw 3vw 9vw;}
 .slide-date {
-    color: #80CDEA; 
+    color: #38a7ff; 
     font-size: 1.2vw; 
     font-weight: 400; 
     letter-spacing: 0.1vw; 
@@ -31,11 +31,11 @@
 }
 .slide-text {font-size: 1.2vw; line-height: 2vw; padding-bottom: 4vw; word-spacing: 4px;}
 .slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 1vw; transition-duration: 0.5s;}
-.slide-more:hover {color: #80CDEA;}
+.slide-more:hover {color: #38a7ff;}
 .slide-bullet {
     width: 0.5vw; 
     height: 0.5vw; 
-    background-color: #80CDEA; 
+    background-color: #38a7ff; 
     border-radius: 200%; 
     position: relative; 
     margin-left: 1.2vw;
@@ -63,8 +63,8 @@ div.overlay-blue {
     height: 1.2vw; 
     background: transparent; 
     text-indent: -9999px; 
-    border-top: 0.15vw solid #80CDEA; 
-    border-left: 0.15vw solid #80CDEA; 
+    border-top: 0.15vw solid #38a7ff; 
+    border-left: 0.15vw solid #38a7ff; 
     transition: all .1s ease-in-out; 
     -webkit-transition:all .1s ease-in-out; 
        -moz-transition:all .1s ease-in-out; 
@@ -75,7 +75,7 @@ div.overlay-blue {
     color: transparent;
     cursor: pointer;
 }
-.arrow:hover {border-color: #80CDEA; border-width: 0.25vw;
+.arrow:hover {border-color: #38a7ff; border-width: 0.25vw;
 }
 .arrow:before {
     display: block; 
